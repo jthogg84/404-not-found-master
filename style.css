@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+    color: #333333;
+    font-size: 24px;
+    margin: 24px;
+    letter-spacing: -.1em;
+    font-weight: 700;
+}
+
+h2{
+    color: #333333;
+    font-size: 48px;
+    margin: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    font-weight: 700;
+}
+
+p{
+    color: #4F4F4F;
+    font-size: 18px;
+    margin: 24px;
+}
+
+button{
+    cursor: pointer;
+    font-weight: 700;
+    margin: 24px;
+    background-color: #333333;
+    color: white;
+    padding: 1.75em 2.75em;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+button a{
+    padding: 0;
+}
+
+button:active{
+    background-color: #4F4F4F;
+}
+
+img{
+    position: relative;
+    left: 50%;
+    width: 286.83px;
+    height: auto;
+    transform: translateX(-50%);
+}
+
+@media screen and (min-width:768px) {
+
+    body{
+        height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .left{
+        width: 50%;
+    }
+
+    .left img{
+        width: 80%;
+        height: auto;
+    }
+
+    .right{
+        width: 50%;
+    }
+    
+    h1{
+        position: absolute;
+        top:20px;
+        left: 40px;
+    }
+    
+}
